@@ -8,7 +8,7 @@ function Hero() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/home")
+    fetch("https://travel-wfq1.onrender.com/api/home")
       .then(res => res.json())
       .then(data => setData(data));
   }, []);
