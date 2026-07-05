@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from 'react';
 import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react';
 
 function Hero() {
 
