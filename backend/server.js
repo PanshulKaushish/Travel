@@ -54,7 +54,7 @@ app.get("/api/home", (req, res) => {
             {
                 id: 3,
                 image: `${BASE_URL}/uploads/img-3.jpg`
-            },
+            },  
             {
                 id: 4,
                 image: `${BASE_URL}/uploads/img-4.jpg`
