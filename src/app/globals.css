@@ -313,7 +313,7 @@ i.fa-regular.fa-user {
 }
 
 .user-name img {
-  width: 15%;
+  width: 10%;
 }
 
 footer {
@@ -582,7 +582,8 @@ footer img {
   margin: 30px 0;
 }
 
-.coll ul::before, .coll ul::after {
+.coll ul::before,
+.coll ul::after {
   content: "";
   position: absolute;
   left: 0;
@@ -599,6 +600,10 @@ footer img {
   bottom: 0;
 }
 
-.why-img  {
+.why-img {
   margin-bottom: 30px;
+}
+
+.carousel-inner { 
+  padding: 50px 5px;
 }
