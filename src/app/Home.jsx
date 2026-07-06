@@ -14,7 +14,7 @@ function Hero() {
 
   console.log(data);
 
-  if (!data) return <p>Loading...</p>;
+  // if (!data) return <p>Loading...</p>;
 
   return (
     <div>
